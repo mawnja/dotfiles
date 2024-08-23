@@ -1,0 +1,38 @@
+!_TAG_FILE_ENCODING	utf-8	//
+nvim-ts-rainbow-colours	nvim-ts-rainbow.md	/### Colours
+nvim-ts-rainbow-credits	nvim-ts-rainbow.md	/## Credits
+nvim-ts-rainbow-installation-and-setup	nvim-ts-rainbow.md	/## Installation and setup
+nvim-ts-rainbow-no-longer-maintained	nvim-ts-rainbow.md	/# NO LONGER MAINTAINED
+nvim-ts-rainbow-nvim-ts-rainbow	nvim-ts-rainbow.md	/# 🌈 nvim-ts-rainbow 🌈
+nvim-ts-rainbow-screenshots	nvim-ts-rainbow.md	/## Screenshots
+nvim-ts-rainbow-warning-notice-whatever	nvim-ts-rainbow.md	/## Warning\/notice\/whatever
+nvim-web-devicons-contributing	nvim-web-devicons.md	/## Contributing
+nvim-web-devicons-get-all-icons	nvim-web-devicons.md	/### Get all icons
+nvim-web-devicons-get-icon	nvim-web-devicons.md	/### Get Icon
+nvim-web-devicons-get-icon-and-color-code	nvim-web-devicons.md	/### Get icon and color code
+nvim-web-devicons-getting-and-setting-icons-by-filetype	nvim-web-devicons.md	/### Getting and setting icons by filetype
+nvim-web-devicons-installation	nvim-web-devicons.md	/## Installation
+nvim-web-devicons-known-issues	nvim-web-devicons.md	/## Known Issues
+nvim-web-devicons-my-setup-overrides-are-not-applied	nvim-web-devicons.md	/### My `setup` Overrides Are Not Applied
+nvim-web-devicons-notice	nvim-web-devicons.md	/# Notice
+nvim-web-devicons-nvim-web-devicons	nvim-web-devicons.md	/# Nvim-web-devicons
+nvim-web-devicons-requirements	nvim-web-devicons.md	/## Requirements
+nvim-web-devicons-set-an-icon	nvim-web-devicons.md	/### Set an icon
+nvim-web-devicons-setup	nvim-web-devicons.md	/### Setup
+nvim-web-devicons-usage	nvim-web-devicons.md	/## Usage
+nvim-web-devicons-variants	nvim-web-devicons.md	/### Variants
+nvim-web-devicons-viewing	nvim-web-devicons.md	/### Viewing
+nvim-web-devicons-windows-and-wsl-not-rendering-icons-properly-on-some-terminals	nvim-web-devicons.md	/### Windows and WSL not rendering icons properly on some terminals
+telescope-live-grep-args.nvim-acknowledgements	telescope-live-grep-args.nvim.md	/## Acknowledgements
+telescope-live-grep-args.nvim-configuration	telescope-live-grep-args.nvim.md	/## Configuration
+telescope-live-grep-args.nvim-development	telescope-live-grep-args.nvim.md	/## Development
+telescope-live-grep-args.nvim-grep-argument-examples	telescope-live-grep-args.nvim.md	/### Grep argument examples
+telescope-live-grep-args.nvim-installation	telescope-live-grep-args.nvim.md	/## Installation
+telescope-live-grep-args.nvim-mapping-recipes	telescope-live-grep-args.nvim.md	/### Mapping recipes:
+telescope-live-grep-args.nvim-options	telescope-live-grep-args.nvim.md	/### Options
+telescope-live-grep-args.nvim-running-the-tests	telescope-live-grep-args.nvim.md	/### Running the tests
+telescope-live-grep-args.nvim-setup	telescope-live-grep-args.nvim.md	/## Setup
+telescope-live-grep-args.nvim-shortcut-functions	telescope-live-grep-args.nvim.md	/### Shortcut functions
+telescope-live-grep-args.nvim-telescope-live-grep-args	telescope-live-grep-args.nvim.md	/# Telescope live grep args
+telescope-live-grep-args.nvim-usage	telescope-live-grep-args.nvim.md	/## Usage
+telescope-live-grep-args.nvim-what-it-does	telescope-live-grep-args.nvim.md	/## What it does
