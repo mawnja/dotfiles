@@ -95,7 +95,7 @@ vim.o.showtabline = 2
 --#vim.o.foldtext = [[getline(v:foldstart) . ' ' . (v:foldend - v:foldstart + 1) . ' lines ' . (v:folddashes ? '+' : '-')]]
 --vim.o.foldtext = [[substitute(getline(v:foldstart),'{{{','-','') . ' ' . (v:foldend - v:foldstart + 1) . ' lines ']]
 
---vim.o.modifiable = true
+vim.o.modifiable = true
 
 vim.g.bufferline_show_bufnr = 1
 
