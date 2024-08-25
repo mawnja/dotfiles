@@ -41,6 +41,33 @@ vim.keymap.set("n", "]g", "<Plug>(coc-diagnostic-next)", opt)
 vim.keymap.set("n", "gd", "<Plug>(coc-definition)", opt)
 vim.keymap.set("n", "gy", "<Plug>(coc-type-definition)", opt)
 vim.keymap.set("n", "gi", "<Plug>(coc-implementation)", opt)
+-- Use K to show documentation in preview window
+function _G.show_docs()
+    local cw = vim.fn.expand('<cword>')
+    if vim.fn.index({'vim', 'help'}, vim.bo.filetype) >= 0 then
+        vim.api.nvim_command('h ' .. cw)
+    elseif vim.api.nvim_eval('coc#rpc#ready()') then
+        vim.fn.CocActionAsync('doHover')
+    else
+        vim.api.nvim_command('!' .. vim.o.keywordprg .. ' ' .. cw)
+    end
+end
+vim.keymap.set("n", "K", '<CMD>lua _G.show_docs()<CR>', {silent = true})
+
+-- Highlight the symbol and its references on a CursorHold event(cursor is idle)
+vim.api.nvim_create_augroup("CocGroup", {})
+vim.api.nvim_create_autocmd("CursorHold", {
+    group = "CocGroup",
+    command = "silent call CocActionAsync('highlight')",
+    desc = "Highlight symbol under cursor on CursorHold"
+})
+
+-- Symbol renaming
+vim.keymap.set("n", "<leader>rn", "<Plug>(coc-rename)", {silent = true})
+
+-- Formatting selected code
+vim.keymap.set("x", "<leader>f", "<Plug>(coc-format-selected)", {silent = true})
+vim.keymap.set("n", "<leader>f", "<Plug>(coc-format-selected)", {silent = true})
 
 -- 使用 <TAB> 键进行代码补全
 vim.api.nvim_set_keymap("i", "<TAB>", 'pumvisible() ? "<C-n>" : "<TAB>"', { noremap = true, expr = true })
@@ -52,17 +79,6 @@ vim.api.nvim_set_keymap("i", "<CR>", 'pumvisible() ? coc#_select_confirm() : "<C
 -- ##vim-fold-cycle
 vim.keymap.set("n", "<C-Right>", "<Plug>(FoldCycleToggle)")
 vim.keymap.set("n", "<C-Left>", "<Plug>(FoldCycleToggle)")
-
--- ##flash.nvim
-vim.keymap.set("n", "<C-s>", "<cmd>lua require('flash').jump()<cr>", opt)
---vi.keymap.set("n", "</>", "<cmd>lua require('flash').jump({search = { forward = true, wrap = false, multi_window = false },})<cr>")
---vim.keymap.set("n", "</>", ":lua require('flash').jump({search = {mode = function(str) return '\\<' .. str end},})<cr>")
---vim.keymap.set("n", "s", "<cmd>lua require('flash').jump()<cr>")
---vim.keymap.set("n", "S", "<cmd>lua require('flash').treesitter()<cr>")
---vim.keymap.set("o", "r", "<cmd>lua require('flash').remote()<cr>")
---vim.keymap.set("o", "R", "<cmd>lua require('flash').treesitter_search()<cr>")
---vim.keymap.set("c", "<c-s>", ":lua require('flash').toggle()<cr>")
-
 
 -- ##toggleterm
 vim.keymap.set('n', '<c-t>', '<Cmd>exe v:count1 . "ToggleTerm"<CR>', opts)

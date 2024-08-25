@@ -72,6 +72,10 @@ vim.o.splitright = true
 -- 自动补全不自动选中
 vim.g.completeopt = "menu,menuone,noselect,noinsert"
 
+-- disable netrw at the very start
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 -- 样式
 vim.o.background = "light"
 vim.o.termguicolors = true
@@ -111,4 +115,9 @@ vim.g.bufferline_show_bufnr = 1
 --##autocmd CursorHold * silent call CocActionAsync('highlight')
 vim.api.nvim_command('autocmd! CursorHold * silent call CocActionAsync("highlight")')
 
-
+vim.cmd([[
+    :hi      NvimTreeExecFile    guifg=#ffa0a0
+    :hi      NvimTreeSpecialFile guifg=#ff80ff gui=underline
+    :hi      NvimTreeSymlink     guifg=Yellow  gui=italic
+    :hi link NvimTreeImageFile   Title
+]])
