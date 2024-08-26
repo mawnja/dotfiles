@@ -27,9 +27,19 @@ vim.keymap.set("n", "<A-b>", ":NvimTreeCollapse<CR>", opt) -- 折叠
 vim.keymap.set("n", "<C-p>", ":Telescope find_files<CR>", opt) -- 查找文件
 --vim.keymap.set("n", "<C-g>", ":Telescope live_grep<CR>", opt) -- 全局搜索
 vim.keymap.set("n", "<C-g>", ":lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>")
-vim.keymap.set("n", "<C-b>", ":Telescope buffers<CR>", opt)
+--vim.keymap.set("n", "<C-b>", ":Telescope buffers<CR>", opt)
 --vim.keymap.set("n", "<C-h>", ":Telescope help_tags<CR>", opt)
 --vim.keymap.set("n", "<C-m>", ":Telescope marks<CR>", opt)
+--file-browser
+vim.keymap.set("n", "<C-b>", ":Telescope file_browser<CR>")
+-- open file_browser with the path of the current buffer
+--vim.keymap.set("n", "<space>fb", ":Telescope file_browser path=%:p:h select_buffer=true<CR>")
+-- Alternatively, using lua API
+--vim.keymap.set("n", "<space>fb", function()
+--	require("telescope").extensions.file_browser.file_browser()
+--end)
+--frecency
+vim.keymap.set("n", "<C-f>", ":Telescope frecency<CR>", opt)
 
 --##coc-nvim
 -- Use `[g` and `]g` to navigate diagnostics
@@ -83,12 +93,12 @@ vim.keymap.set("n", "<C-Left>", "<Plug>(FoldCycleToggle)")
 -- ##toggleterm
 vim.keymap.set('n', '<c-t>', '<Cmd>exe v:count1 . "ToggleTerm"<CR>', opts)
 vim.keymap.set('i', '<c-t>', '<Esc><Cmd>exe v:count1 . "ToggleTerm"<CR>', opts)
-vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], opts)
+--vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], opts)
 -- vim.keymap.set('t', 'jk', [[<C-\><C-n>]], opts)
-vim.keymap.set('t', '<C-h>', [[<Cmd>wincmd h<CR>]], opts)
-vim.keymap.set('t', '<C-j>', [[<Cmd>wincmd j<CR>]], opts)
-vim.keymap.set('t', '<C-k>', [[<Cmd>wincmd k<CR>]], opts)
-vim.keymap.set('t', '<C-l>', [[<Cmd>wincmd l<CR>]], opts)
+--vim.keymap.set('t', '<C-h>', [[<Cmd>wincmd h<CR>]], opts)
+--vim.keymap.set('t', '<C-j>', [[<Cmd>wincmd j<CR>]], opts)
+--vim.keymap.set('t', '<C-k>', [[<Cmd>wincmd k<CR>]], opts)
+--vim.keymap.set('t', '<C-l>', [[<Cmd>wincmd l<CR>]], opts)
 
 -- vim.api.nvim_command('autocmd! TermEnter term://*toggleterm#* tnoremap <silent><c-t> <Cmd>exe v:count1 . "ToggleTerm"<CR>')
 

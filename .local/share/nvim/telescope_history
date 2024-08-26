@@ -63,3 +63,6 @@ c
 co
 c
 co
+plugins
+coc.lua
+test_vm.py
