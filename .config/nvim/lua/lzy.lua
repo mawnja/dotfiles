@@ -50,7 +50,9 @@ require("lazy").setup({
 
     require("plugins.flash"),
 
-    require("plugins.comment")
+    require("plugins.comment"),
+
+    require("plugins.ibl")
 
     -- git diffview
     --{"sindrets/diffview.nvim", dependencies = 'nvim-lua/plenary.nvim' },

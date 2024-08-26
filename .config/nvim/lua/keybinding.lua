@@ -39,7 +39,7 @@ vim.keymap.set("n", "<C-b>", ":Telescope file_browser<CR>")
 --	require("telescope").extensions.file_browser.file_browser()
 --end)
 --frecency
-vim.keymap.set("n", "<C-f>", ":Telescope frecency<CR>", opt)
+vim.keymap.set("n", "<C-f>", ":Telescope frecency workspace=CWD<CR>", opt)
 
 --##coc-nvim
 -- Use `[g` and `]g` to navigate diagnostics
