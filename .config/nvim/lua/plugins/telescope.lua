@@ -31,6 +31,46 @@ return {
                         prompt_position = "bottom",
                     },
                 },
+                mappings = {
+                    i = {
+                        -- 自定义键映射
+                        ["<C-p>"] = function()
+                            local clipboard_content = vim.fn.getreg('"', 1)
+                            if clipboard_content ~= "" then
+                                local prompt_bufnr = require('telescope.actions.state').get_current_picker(vim.api.nvim_get_current_buf()).prompt_bufnr
+                                local prompt_text = require('telescope.actions.state').get_current_line()
+                                local new_text = prompt_text .. clipboard_content
+                                local cursor_pos = vim.api.nvim_win_get_cursor(0)
+                                local row = cursor_pos[1] - 1
+                                local col = cursor_pos[2]
+                                vim.api.nvim_buf_set_text(prompt_bufnr, row, col, row, col, { new_text })
+                            end
+                        end,
+                        ["<C-u>"] = function()
+                            local prompt_bufnr = require('telescope.actions.state').get_current_picker(vim.api.nvim_get_current_buf()).prompt_bufnr
+                            vim.api.nvim_buf_set_lines(prompt_bufnr, 0, -1, false, { "" })
+                        end,
+                    },
+                    n = {
+                        -- 自定义键映射
+                        ["<C-p>"] = function()
+                            local clipboard_content = vim.fn.getreg('"', 1)
+                            if clipboard_content ~= "" then
+                                local prompt_bufnr = require('telescope.actions.state').get_current_picker(vim.api.nvim_get_current_buf()).prompt_bufnr
+                                local prompt_text = require('telescope.actions.state').get_current_line()
+                                local new_text = prompt_text .. clipboard_content
+                                local cursor_pos = vim.api.nvim_win_get_cursor(0)
+                                local row = cursor_pos[1] - 1
+                                local col = cursor_pos[2]
+                                vim.api.nvim_buf_set_text(prompt_bufnr, row, col, row, col, { new_text })
+                            end
+                        end,
+                        ["<C-u>"] = function()
+                            local prompt_bufnr = require('telescope.actions.state').get_current_picker(vim.api.nvim_get_current_buf()).prompt_bufnr
+                            vim.api.nvim_buf_set_lines(prompt_bufnr, 0, -1, false, { "" })
+                        end,
+                    }
+                }
             },
             pickers = {
                 live_grep = {

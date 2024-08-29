@@ -41,7 +41,7 @@ require("lazy").setup({
     require("plugins.coc"),
 
     -- symbols outline
-    { "simrat39/symbols-outline.nvim" },
+    require("plugins.symbols-outline"),
 
     --colorizer
     require("plugins.colorizer"),
@@ -52,7 +52,9 @@ require("lazy").setup({
 
     require("plugins.comment"),
 
-    require("plugins.ibl")
+    require("plugins.ibl"),
+
+    require("plugins.gv")
 
     -- git diffview
     --{"sindrets/diffview.nvim", dependencies = 'nvim-lua/plenary.nvim' },
