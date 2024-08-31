@@ -103,17 +103,27 @@ vim.o.modifiable = true
 
 vim.g.bufferline_show_bufnr = 1
 
---vim.cmd.colorscheme("solarized")
---vim.cmd.colorscheme("PaperColor")
-
 --vim.cmd("filetype plugin indent on")
 --autocmd FileType apache setlocal commentstring=#\ %s
 
---vim.cmd('highlight CursorHighlight ctermbg=184')
---vim.cmd('highlight CursorHighlight guibg=#ffff00')
 --##
---##autocmd CursorHold * silent call CocActionAsync('highlight')
-vim.api.nvim_command('autocmd! CursorHold * silent call CocActionAsync("highlight")')
+-- 定义自定义高亮组
+--vim.cmd([[ highlight CocHighlightText guifg=#ffffff guibg=#ff0000 gui=underline]])
+-- 配置 Coc 插件使用自定义高亮组
+--vim.g.coc_default_semantic_highlight_groups = 0
+-- 设置自动命令
+--vim.api.nvim_command('autocmd! CursorHold * silent call CocActionAsync("highlight")')
+
+--自定义函数，用于将上一行内容拷贝到当前行
+function YankPreviousLine()
+  -- 移动到上一行并复制内容
+  vim.cmd('normal! kyy')
+  -- 移动回当前行并粘贴
+  vim.cmd('normal! jP')
+end
+
+-- 将上一行内容拷贝到当前行
+vim.keymap.set('n', '<C-P>', ':lua YankPreviousLine()<CR>', opt)
 
 vim.cmd([[
     :hi      NvimTreeExecFile    guifg=#ffa0a0

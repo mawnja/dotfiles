@@ -11,6 +11,25 @@ keymap.set('n', 'dw', 'vb"_d')
 -- Select all
 keymap.set('n', '<C-a>', 'ggVG', opt)
 
+-- shift + > 右移
+local function indent_selected_text()
+    local mode = vim.fn.mode()
+    if mode == "V" or mode == "v" then
+        -- 获取当前选中的范围
+        local start_pos = vim.fn.getpos("'<")
+        local end_pos = vim.fn.getpos("'>")
+        -- 执行右移操作
+        vim.cmd("normal! >")
+        -- 重新选中之前的范围
+        vim.fn.setpos("'<", start_pos)
+        vim.fn.setpos("'>", end_pos)
+        -- 重新进入可视模式
+        vim.cmd("normal! gv")
+    end
+end
+-- 映射选中内容整体右移的快捷键
+keymap.set("v", "<S-Right>", ":lua indent_selected_text()<CR>", opt)
+
 
 --##bufferline##
 keymap.set("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
@@ -106,8 +125,8 @@ keymap.set('n', '<leader>gv', ':GV<CR>', opt)
 keymap.set('n', '<leader>gV', ':GV!<CR>', opt)
 
 -- ##vim-fold-cycle
-keymap.set("n", "<C-Right>", "<Plug>(FoldCycleToggle)")
-keymap.set("n", "<C-Left>", "<Plug>(FoldCycleToggle)")
+--keymap.set("n", "<C-Right>", "<Plug>(FoldCycleToggle)")
+--keymap.set("n", "<C-Left>", "<Plug>(FoldCycleToggle)")
 
 -- ##toggleterm
 keymap.set('n', '<c-t>', '<Cmd>exe v:count1 . "ToggleTerm"<CR>', opt)

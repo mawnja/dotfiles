@@ -66,3 +66,18 @@ co
 plugins
 coc.lua
 test_vm.py
+"float8" tests/
+ml_dtypes
+ml_dtype
+"float8" tests/
+python/tvm/_ffi/lib
+optional.h
+simplify.cc
+/codegen/test_tar
+test_e4m3_conversions
+NOTE
+gol
+N
+dynamic_preview_title
+lga_actions
+telescope
