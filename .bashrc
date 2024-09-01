@@ -19,9 +19,8 @@ export PATH=~/.local/share/yarn/bin:$PATH
 export PATH=${localrun}/program_en/cmake-3.25.0-linux-x86_64/bin:$PATH
 export PATH=${localrun}/program_en/vscode/VSCode-linux-x64/bin:$PATH
 export PATH=${localrun}/program_en/myzsh/usr/bin:$PATH
-export PATH=/usr/local/cuda/bin:$PATH
+#export PATH=/usr/local/cuda/bin:$PATH
 
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
-export PYTHONPATH=${localrun}/tvm/python:$PYTHONPATH
-export TVM_BUILD_PATH=${localrun}/tvm/build:$TVM_BUILD_PATH
-export TVM_LIBRARY_PATH=${localrun}/tvm/build:$TVM_LIBRARY_PATH
+#export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export PATH="/LocalRun/wenjian.ma/program_en/rbenv/bin:$PATH"
+eval "$(rbenv init -)"

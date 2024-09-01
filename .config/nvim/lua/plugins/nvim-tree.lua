@@ -8,6 +8,7 @@ return {
     "nvim-tree/nvim-tree.lua", 
     event = "VimEnter", 
     dependencies = "nvim-tree/nvim-web-devicons",
+    opts = {},
     config = function()
         local tree = require("nvim-tree")
         tree.setup({

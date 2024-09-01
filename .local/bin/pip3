@@ -1,4 +1,4 @@
-#!/usr/bin/python3.6
+#!/home/wenjian.ma/.local/bin/python3.8
 # -*- coding: utf-8 -*-
 import re
 import sys

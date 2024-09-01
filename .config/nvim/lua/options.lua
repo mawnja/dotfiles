@@ -1,5 +1,5 @@
-vim.g.python_version = 3.6
-vim.g.python3_host_prog = "~/.local/bin/python3.6"
+vim.g.python_version = 3.8
+vim.g.python3_host_prog = "~/.local/bin/python3.8"
 
 vim.g.loaded_perl_provider = 0
 

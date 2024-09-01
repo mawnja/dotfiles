@@ -3,6 +3,7 @@
 -- #D2B48C 土黄色
 return {
     "norcalli/nvim-colorizer.lua",
+    opts = {},
     config = function()
         local colorizer = require("colorizer")
         colorizer.setup({

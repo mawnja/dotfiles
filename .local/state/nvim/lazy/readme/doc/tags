@@ -1,4 +1,23 @@
 !_TAG_FILE_ENCODING	utf-8	//
+colorbuddy.nvim-basic-usage	colorbuddy.nvim.md	/# Basic Usage
+colorbuddy.nvim-colorbuddy-nvim	colorbuddy.nvim.md	/# colorbuddy.nvim
+colorbuddy.nvim-example	colorbuddy.nvim.md	/## Example
+colorbuddy.nvim-installation	colorbuddy.nvim.md	/# Installation
+colorbuddy.nvim-lazy-nvim-https-github-com-folke-lazy-nvim	colorbuddy.nvim.md	/## \[lazy.nvim\](https:\/\/github.com\/folke\/lazy.nvim)
+colorbuddy.nvim-made-with-colorbuddy	colorbuddy.nvim.md	/## Made with Colorbuddy
+colorbuddy.nvim-packer-https-github-com-wbthomason-packer-nvim	colorbuddy.nvim.md	/## \[Packer\](https:\/\/github.com\/wbthomason\/packer.nvim)
+colorbuddy.nvim-vim-plug-https-github-com-junegunn-vim-plug	colorbuddy.nvim.md	/## \[vim-plug\](https:\/\/github.com\/junegunn\/vim-plug)
+gv.vim-commands	gv.vim.md	/### Commands
+gv.vim-mappings	gv.vim.md	/### Mappings
+neosolarized.nvim-customization	neosolarized.nvim.md	/### Customization
+neosolarized.nvim-features	neosolarized.nvim.md	/## Features
+neosolarized.nvim-limitations	neosolarized.nvim.md	/## Limitations
+neosolarized.nvim-neosolarized-nvim	neosolarized.nvim.md	/# neosolarized.nvim
+neosolarized.nvim-plugins-supported	neosolarized.nvim.md	/### Plugins supported
+neosolarized.nvim-prerequisites	neosolarized.nvim.md	/## Prerequisites
+neosolarized.nvim-setup	neosolarized.nvim.md	/### Setup
+neosolarized.nvim-todo	neosolarized.nvim.md	/### TODO
+neosolarized.nvim-why	neosolarized.nvim.md	/## Why?
 nvim-ts-rainbow-colours	nvim-ts-rainbow.md	/### Colours
 nvim-ts-rainbow-credits	nvim-ts-rainbow.md	/## Credits
 nvim-ts-rainbow-installation-and-setup	nvim-ts-rainbow.md	/## Installation and setup

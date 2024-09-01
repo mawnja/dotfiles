@@ -1,6 +1,7 @@
 return {
     "chentoast/marks.nvim", 
     event = "VeryLazy",
+    opts = {},
     config = function()
         local marks = require("marks")
         marks.setup({

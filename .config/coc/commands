@@ -1,5 +1,6 @@
 clangd.install
 clangd.install
+clangd.install
 git.showCommit
 git.chunkInfo
 git.diffCached

@@ -7,6 +7,7 @@ return {
         "nvim-telescope/telescope-file-browser.nvim",
         "nvim-telescope/telescope-live-grep-args.nvim", version = "^1.0.0",      
     },
+    opts = {},
     config = function()
         local fb_actions = require("telescope").extensions.file_browser.actions
 	    local lga_actions = require("telescope-live-grep-args.actions")
