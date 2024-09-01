@@ -1,4 +1,4 @@
-return {
+local illuminate = {
     "RRethy/vim-illuminate",
     opts = {},
     config = function()
@@ -28,4 +28,8 @@ return {
             hi link IlluminatedWordWrite CocHighlightText
         ]]) 
     end
+}
+
+return {
+    illuminate
 }

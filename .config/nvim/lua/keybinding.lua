@@ -92,14 +92,6 @@ function _G.show_docs()
 end
 keymap.set("n", "K", '<CMD>lua _G.show_docs()<CR>', {silent = true})
 
--- Highlight the symbol and its references on a CursorHold event(cursor is idle)
-vim.api.nvim_create_augroup("CocGroup", {})
-vim.api.nvim_create_autocmd("CursorHold", {
-    group = "CocGroup",
-    command = "silent call CocActionAsync('highlight')",
-    desc = "Highlight symbol under cursor on CursorHold"
-})
-
 -- Symbol renaming
 keymap.set("n", "<leader>rn", "<Plug>(coc-rename)", {silent = true})
 
@@ -127,18 +119,6 @@ keymap.set('n', '<leader>gV', ':GV!<CR>', opt)
 -- ##vim-fold-cycle
 --keymap.set("n", "<C-Right>", "<Plug>(FoldCycleToggle)")
 --keymap.set("n", "<C-Left>", "<Plug>(FoldCycleToggle)")
-
--- ##toggleterm
-keymap.set('n', '<c-t>', '<Cmd>exe v:count1 . "ToggleTerm"<CR>', opt)
-keymap.set('i', '<c-t>', '<Esc><Cmd>exe v:count1 . "ToggleTerm"<CR>', opt)
---keymap.set('t', '<esc>', [[<C-\><C-n>]], opt)
---keymap.set('t', 'jk', [[<C-\><C-n>]], opt)
---keymap.set('t', '<C-h>', [[<Cmd>wincmd h<CR>]], opt)
---keymap.set('t', '<C-j>', [[<Cmd>wincmd j<CR>]], opt)
---keymap.set('t', '<C-k>', [[<Cmd>wincmd k<CR>]], opt)
---keymap.set('t', '<C-l>', [[<Cmd>wincmd l<CR>]], opt)
-
--- vim.api.nvim_command('autocmd! TermEnter term://*toggleterm#* tnoremap <silent><c-t> <Cmd>exe v:count1 . "ToggleTerm"<CR>')
 
 -- ##todo-comments
 keymap.set("n", "]t", function()

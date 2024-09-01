@@ -40,6 +40,8 @@ return {
                 },
                 mappings = {
                     i = {
+                        ["<C-Up>"] = tlp_actions.cycle_history_prev,
+                        ["<C-Down>"] = tlp_actions.cycle_history_next,
                         ["<C-p>"] = function()
                             local clipboard_content = vim.fn.getreg('+'):gsub("\n", "")
                             if clipboard_content ~= "" then
@@ -58,6 +60,8 @@ return {
                         end,
                     },
                     n = {
+                        ["<C-Up>"] = tlp_actions.cycle_history_prev,
+                        ["<C-Down>"] = tlp_actions.cycle_history_next,
                         ["<C-p>"] = function()
                             local clipboard_content = vim.fn.getreg('+'):gsub("\n", "")
                             if clipboard_content ~= "" then
@@ -78,12 +82,7 @@ return {
                 }
             },
             pickers = {
-                find_files = {
-
-                },
                 live_grep = {
-                    -- 启用历史记录
-                    history = true,
                     theme = "dropdown",
                     layout_strategy = "vertical",
                     dynamic_preview_title = true,

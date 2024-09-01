@@ -33,13 +33,6 @@ require("lazy").setup({
     -- bookmark
     require("plugins.marks"),
 
-    -- terminal
-    require("plugins.toggleterm"),
-
-    { "p00f/nvim-ts-rainbow" },
-
-    require("plugins.coc"),
-
     -- symbols outline
     require("plugins.symbols-outline"),
 
@@ -56,7 +49,10 @@ require("lazy").setup({
 
     require("plugins.gv"),
 
-    require("plugins.illuminate")
+    require("plugins.cursorword"),
+
+    -- terminal
+    require("plugins.terminal"),
 
     -- git diffview
     --{"sindrets/diffview.nvim", dependencies = 'nvim-lua/plenary.nvim' },
@@ -72,4 +68,5 @@ require("lazy").setup({
 
     --{"kassio/neoterm"}
 
+    require("plugins.coc")
 })

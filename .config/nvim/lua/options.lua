@@ -113,6 +113,9 @@ vim.g.bufferline_show_bufnr = 1
 --vim.g.coc_default_semantic_highlight_groups = 0
 -- 设置自动命令
 --vim.api.nvim_command('autocmd! CursorHold * silent call CocActionAsync("highlight")')
+--vim.cmd([[
+--  highlight CocHighlightText ctermfg=NONE ctermbg=Yellow guifg=NONE guibg=Yellow
+--]])
 
 --自定义函数，用于将上一行内容拷贝到当前行
 function YankPreviousLine()
