@@ -49,13 +49,15 @@ require("lazy").setup({
 
     require("plugins.gv"),
 
+    require("plugins.gitsigns"),
+
     require("plugins.cursorword"),
 
     -- terminal
     require("plugins.terminal"),
 
     -- git diffview
-    --{"sindrets/diffview.nvim", dependencies = 'nvim-lua/plenary.nvim' },
+    --require("plugins.diffview"),
 
     --{"preservim/vim-markdown", ft = "markdown",},
     --{"iamcco/markdown-preview.nvim"},
