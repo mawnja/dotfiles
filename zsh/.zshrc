@@ -1,9 +1,9 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=${localrun}/program_en/myzsh/autojump/bin:$PATH
-export PATH=${localrun}/program_en/myzsh/fzf/bin:$PATH
-export PATH=${localrun}/program_en/myzsh/usr/bin:$PATH
+export PATH=./myzsh/autojump/bin:$PATH
+export PATH=./myzsh/fzf/bin:$PATH
+export PATH=./myzsh/usr/bin:$PATH
 
-export LD_LIBRARY_PATH=${localrun}/program_en/myzsh/usr/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=./myzsh/usr/lib:$LD_LIBRARY_PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
