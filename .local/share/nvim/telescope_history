@@ -1,6 +1,3 @@
-qdq.cc
-onnx.py
-codegen_cuda
 codegen_c.h
 data_type.h
 codegen_cuda.cc
@@ -98,3 +95,6 @@ vm.c
 vm
 vm.py
 vm.cc
+vm.py
+vm.cc
+vm.py

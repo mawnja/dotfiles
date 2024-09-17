@@ -73,6 +73,4 @@ require("lazy").setup({
     --{ "folke/which-key.nvim"},
 
     --{"kassio/neoterm"}
-
-    --require("plugins.coc")
 })

@@ -22,5 +22,5 @@ export PATH=${localrun}/dotfiles/zsh/myzsh/usr/bin:$PATH
 #export PATH=/usr/local/cuda/bin:$PATH
 
 #export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
-export PATH="/LocalRun/wenjian.ma/program_en/rbenv/bin:$PATH"
+export PATH=${localrun}/program_en/rbenv/bin:$PATH
 eval "$(rbenv init -)"

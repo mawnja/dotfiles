@@ -1,23 +1,64 @@
 !_TAG_FILE_ENCODING	utf-8	//
-colorbuddy.nvim-basic-usage	colorbuddy.nvim.md	/# Basic Usage
-colorbuddy.nvim-colorbuddy-nvim	colorbuddy.nvim.md	/# colorbuddy.nvim
-colorbuddy.nvim-example	colorbuddy.nvim.md	/## Example
-colorbuddy.nvim-installation	colorbuddy.nvim.md	/# Installation
-colorbuddy.nvim-lazy-nvim-https-github-com-folke-lazy-nvim	colorbuddy.nvim.md	/## \[lazy.nvim\](https:\/\/github.com\/folke\/lazy.nvim)
-colorbuddy.nvim-made-with-colorbuddy	colorbuddy.nvim.md	/## Made with Colorbuddy
-colorbuddy.nvim-packer-https-github-com-wbthomason-packer-nvim	colorbuddy.nvim.md	/## \[Packer\](https:\/\/github.com\/wbthomason\/packer.nvim)
-colorbuddy.nvim-vim-plug-https-github-com-junegunn-vim-plug	colorbuddy.nvim.md	/## \[vim-plug\](https:\/\/github.com\/junegunn\/vim-plug)
+clangd_extensions.nvim-completion-scores-https-clangd-llvm-org-extensions-code-completion-scores	clangd_extensions.nvim.md	/### \[Completion scores\](https:\/\/clangd.llvm.org\/extensions#code-completion-scores)
+clangd_extensions.nvim-configuration	clangd_extensions.nvim.md	/## Configuration:
+clangd_extensions.nvim-credits	clangd_extensions.nvim.md	/## Credits
+clangd_extensions.nvim-features	clangd_extensions.nvim.md	/## Features:
+clangd_extensions.nvim-implementation-status-of-extensions-https-clangd-llvm-org-extensions	clangd_extensions.nvim.md	/## Implementation status of \[extensions\](https:\/\/clangd.llvm.org\/extensions)
+clangd_extensions.nvim-inlay-hints-https-clangd-llvm-org-extensions-inlay-hints	clangd_extensions.nvim.md	/### \[Inlay hints\](https:\/\/clangd.llvm.org\/extensions#inlay-hints)
+clangd_extensions.nvim-installation	clangd_extensions.nvim.md	/## Installation
+clangd_extensions.nvim-memory-usage-https-clangd-llvm-org-extensions-memory-usage	clangd_extensions.nvim.md	/### \[Memory usage\](https:\/\/clangd.llvm.org\/extensions#memory-usage)
+clangd_extensions.nvim-switch-between-source-header-https-clangd-llvm-org-extensions-switch-between-sourceheader	clangd_extensions.nvim.md	/### \[Switch between source\/header\](https:\/\/clangd.llvm.org\/extensions#switch-between-sourceheader)
+clangd_extensions.nvim-symbol-info-https-clangd-llvm-org-extensions-symbol-info-request	clangd_extensions.nvim.md	/### \[Symbol info\](https:\/\/clangd.llvm.org\/extensions#symbol-info-request)
+clangd_extensions.nvim-type-hierarchy-https-clangd-llvm-org-extensions-type-hierarchy	clangd_extensions.nvim.md	/### \[Type hierarchy\](https:\/\/clangd.llvm.org\/extensions#type-hierarchy)
+clangd_extensions.nvim-usage	clangd_extensions.nvim.md	/#### Usage
+clangd_extensions.nvim-view-ast-https-clangd-llvm-org-extensions-ast	clangd_extensions.nvim.md	/### \[View AST\](https:\/\/clangd.llvm.org\/extensions#ast)
+cmp-buffer-all-buffers	cmp-buffer.md	/##### All buffers
+cmp-buffer-cmp-buffer	cmp-buffer.md	/# cmp-buffer
+cmp-buffer-configuration	cmp-buffer.md	/## Configuration
+cmp-buffer-get-bufnrs-type-fun-number	cmp-buffer.md	/### get_bufnrs (type: fun(): number\[\])
+cmp-buffer-indexing-and-how-to-optimize-it	cmp-buffer.md	/## Indexing and how to optimize it
+cmp-buffer-indexing-batch-size-type-number	cmp-buffer.md	/### indexing_batch_size (type: number)
+cmp-buffer-indexing-interval-type-number	cmp-buffer.md	/### indexing_interval (type: number)
+cmp-buffer-keyword-length-type-number	cmp-buffer.md	/### keyword_length (type: number)
+cmp-buffer-keyword-pattern-type-string	cmp-buffer.md	/### keyword_pattern (type: string)
+cmp-buffer-locality-bonus-comparator-distance-based-sorting	cmp-buffer.md	/## Locality bonus comparator (distance-based sorting)
+cmp-buffer-max-indexed-line-length-type-number	cmp-buffer.md	/### max_indexed_line_length (type: number)
+cmp-buffer-performance-on-large-text-files	cmp-buffer.md	/### Performance on large text files
+cmp-buffer-setup	cmp-buffer.md	/## Setup
+cmp-buffer-visible-buffers	cmp-buffer.md	/##### Visible buffers
+cmp-cmdline-cmp-cmdline	cmp-cmdline.md	/# cmp-cmdline
+cmp-cmdline-ignore-cmds-string	cmp-cmdline.md	/### ignore_cmds: string\[\]
+cmp-cmdline-option	cmp-cmdline.md	/# Option
+cmp-cmdline-setup	cmp-cmdline.md	/# Setup
+cmp-cmdline-treat-trailing-slash-boolean	cmp-cmdline.md	/### treat_trailing_slash: boolean
+cmp-nvim-lsp-document-symbol-cmp-nvim-lsp-document-symbol	cmp-nvim-lsp-document-symbol.md	/# cmp-nvim-lsp-document-symbol
+cmp-nvim-lsp-document-symbol-setup	cmp-nvim-lsp-document-symbol.md	/# Setup
+cmp-nvim-lsp-signature-help-cmp-nvim-lsp-signature-help	cmp-nvim-lsp-signature-help.md	/# cmp-nvim-lsp-signature-help
+cmp-nvim-lsp-signature-help-setup	cmp-nvim-lsp-signature-help.md	/# Setup
+cmp-path-cmp-path	cmp-path.md	/# cmp-path
+cmp-path-configuration	cmp-path.md	/## Configuration
+cmp-path-get-cwd-type-function	cmp-path.md	/### get_cwd (type: function)
+cmp-path-label-trailing-slash-type-boolean	cmp-path.md	/### label_trailing_slash (type: boolean)
+cmp-path-setup	cmp-path.md	/# Setup
+cmp-path-trailing-slash-type-boolean	cmp-path.md	/### trailing_slash (type: boolean)
+cmp_luasnip-cmp-luasnip	cmp_luasnip.md	/# cmp_luasnip
+friendly-snippets-add-snippets-from-a-framework-to-a-filetype	friendly-snippets.md	/## Add snippets from a framework to a filetype.
+friendly-snippets-credits	friendly-snippets.md	/## Credits
+friendly-snippets-excluding-snippets	friendly-snippets.md	/## Excluding snippets
+friendly-snippets-friendly-snippets	friendly-snippets.md	/# Friendly Snippets
+friendly-snippets-html	friendly-snippets.md	/### HTML
+friendly-snippets-install	friendly-snippets.md	/## Install
+friendly-snippets-js	friendly-snippets.md	/### JS
+friendly-snippets-showcase	friendly-snippets.md	/## Showcase
+friendly-snippets-thanks-to-all-contributors	friendly-snippets.md	/## Thanks to all contributors
+friendly-snippets-todo	friendly-snippets.md	/## TODO
+friendly-snippets-usage	friendly-snippets.md	/## Usage
+friendly-snippets-with-coc-nvim	friendly-snippets.md	/### With coc.nvim
+friendly-snippets-with-lazy-nvim	friendly-snippets.md	/### With Lazy.nvim
+friendly-snippets-with-packer	friendly-snippets.md	/### With Packer
+friendly-snippets-with-vim-plug	friendly-snippets.md	/### With vim-plug
 gv.vim-commands	gv.vim.md	/### Commands
 gv.vim-mappings	gv.vim.md	/### Mappings
-neosolarized.nvim-customization	neosolarized.nvim.md	/### Customization
-neosolarized.nvim-features	neosolarized.nvim.md	/## Features
-neosolarized.nvim-limitations	neosolarized.nvim.md	/## Limitations
-neosolarized.nvim-neosolarized-nvim	neosolarized.nvim.md	/# neosolarized.nvim
-neosolarized.nvim-plugins-supported	neosolarized.nvim.md	/### Plugins supported
-neosolarized.nvim-prerequisites	neosolarized.nvim.md	/## Prerequisites
-neosolarized.nvim-setup	neosolarized.nvim.md	/### Setup
-neosolarized.nvim-todo	neosolarized.nvim.md	/### TODO
-neosolarized.nvim-why	neosolarized.nvim.md	/## Why?
 nvim-ts-rainbow-colours	nvim-ts-rainbow.md	/### Colours
 nvim-ts-rainbow-credits	nvim-ts-rainbow.md	/## Credits
 nvim-ts-rainbow-installation-and-setup	nvim-ts-rainbow.md	/## Installation and setup

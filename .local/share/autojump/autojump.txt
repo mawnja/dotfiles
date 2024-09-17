@@ -27,9 +27,9 @@
 10.0	/home/wenjian.ma/.cargo/registry/cache
 10.0	/home/wenjian.ma/.cargo/registry/index
 10.0	/home/wenjian.ma/.cargo/registry/src
-141.7744687875782	/LocalRun/wenjian.ma
+143.5270009440732	/LocalRun/wenjian.ma
 17.320508075688775	/LocalRun/wenjian.ma/dotfile/.vim/plugged/solarized.nvim
-83.66600265340756	/LocalRun/wenjian.ma/tvm
+86.02325267042627	/LocalRun/wenjian.ma/tvm
 60.827625302982206	/LocalRun/wenjian.ma/program_en
 10.0	/LocalRun/wenjian.ma/dotfile/zsh/.oh-my-zsh
 14.142135623730951	/LocalRun/wenjian.ma/dotfile/zsh/.oh-my-zsh/plugins
@@ -97,9 +97,9 @@
 10.0	/LocalRun/wenjian.ma/tvm/src/topi
 10.0	/LocalRun/wenjian.ma/tvm/src/node
 10.0	/LocalRun/wenjian.ma/tvm/src/relax
-53.851648071345046	/LocalRun/wenjian.ma/dotfiles
-36.0555127546399	/LocalRun/wenjian.ma/dotfiles/.config
-44.7213595499958	/LocalRun/wenjian.ma/dotfiles/.config/nvim
+54.772255750516614	/LocalRun/wenjian.ma/dotfiles
+37.41657386773942	/LocalRun/wenjian.ma/dotfiles/.config
+45.82575694955841	/LocalRun/wenjian.ma/dotfiles/.config/nvim
 37.41657386773942	/LocalRun/wenjian.ma/dotfiles/.local
 10.0	/LocalRun/wenjian.ma/dotfile/.config/dconf
 40.00000000000001	/LocalRun/wenjian.ma/dotfile/.local/share/nvim/lazy
@@ -146,8 +146,8 @@
 14.142135623730951	/LocalRun/wenjian.ma/dotfiles/.local/share/nvim/lazy/nvim-treesitter-context
 14.142135623730951	/LocalRun/wenjian.ma/dotfiles/.local/share/nvim/lazy/solarized
 14.142135623730951	/LocalRun/wenjian.ma/dotfiles/.local/share/nvim/lazy/toggleterm.nvim
-70.00000000000001	/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins
-59.16079783099617	/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua
+73.48469228349536	/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins
+61.64414002968977	/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua
 26.457513110645905	/LocalRun/wenjian.ma/tvm/3rdparty
 14.142135623730951	/LocalRun/wenjian.ma/tvm/python/tvm
 20.0	/LocalRun/wenjian.ma/tvm/3rdparty/mlperftiny
