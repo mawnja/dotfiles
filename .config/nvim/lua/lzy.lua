@@ -56,6 +56,10 @@ require("lazy").setup({
     -- terminal
     require("plugins.terminal"),
 
+    require("plugins.cmp"),
+
+    require("plugins.lspconfig")
+
     -- git diffview
     --require("plugins.diffview"),
 
@@ -70,5 +74,5 @@ require("lazy").setup({
 
     --{"kassio/neoterm"}
 
-    require("plugins.coc")
+    --require("plugins.coc")
 })

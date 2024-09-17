@@ -1,12 +1,20 @@
-LJÙtreturn {
+LJÃàreturn {
   records = {
     ["/LocalRun/wenjian.ma/dotfiles/.bashrc"] = {
-      count = 3,
-      timestamps = { 1724771092, 1725150056, 1725172990 }
+      count = 7,
+      timestamps = { 1724771092, 1725150056, 1725172990, 1726563800, 1726565175, 1726565252, 1726566481 }
     },
     ["/LocalRun/wenjian.ma/dotfiles/.config/coc/extensions/package.json"] = {
       count = 1,
       timestamps = { 1725120209 }
+    },
+    ["/LocalRun/wenjian.ma/dotfiles/.config/configstore/update-notifier-npm.json"] = {
+      count = 1,
+      timestamps = { 1726573103 }
+    },
+    ["/LocalRun/wenjian.ma/dotfiles/.config/dconf/user"] = {
+      count = 1,
+      timestamps = { 1726573059 }
     },
     ["/LocalRun/wenjian.ma/dotfiles/.config/nvim/coc-settings.json"] = {
       count = 22,
@@ -17,12 +25,12 @@
       timestamps = { 0, 1724770713, 1724772474, 1724950529, 1724950662, 1725106937, 1725106947, 1725109888 }
     },
     ["/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/keybinding.lua"] = {
-      count = 57,
-      timestamps = { 1725112084, 1725112289, 1725112355, 1725112775, 1725113033, 1725115587, 1725119944, 1725191600, 1725196255, 1725200842 }
+      count = 58,
+      timestamps = { 1725112289, 1725112355, 1725112775, 1725113033, 1725115587, 1725119944, 1725191600, 1725196255, 1725200842, 1726500563 }
     },
     ["/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/lzy.lua"] = {
-      count = 20,
-      timestamps = { 1725115601, 1725116137, 1725192873, 1725192964, 1725192997, 1725193083, 1725199110, 1725199114, 1725199494, 1725199770 }
+      count = 22,
+      timestamps = { 1725192873, 1725192964, 1725192997, 1725193083, 1725199110, 1725199114, 1725199494, 1725199770, 1726500247, 1726500337 }
     },
     ["/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/options.lua"] = {
       count = 33,
@@ -31,6 +39,10 @@
     ["/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/bufferline.lua"] = {
       count = 11,
       timestamps = { 1724764999, 1724765158, 1724770770, 1724770844, 1724940119, 1724940226, 1724940239, 1725107037, 1725116574, 1725194546 }
+    },
+    ["/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/cmp.lua"] = {
+      count = 11,
+      timestamps = { 1726500647, 1726500751, 1726500857, 1726501114, 1726504461, 1726505301, 1726506920, 1726507048, 1726560441, 1726568004 }
     },
     ["/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/coc.lua"] = {
       count = 25,
@@ -60,6 +72,10 @@
       count = 28,
       timestamps = { 1724684176, 1724688939, 1724688971, 1724689063, 1724689253, 1724689287, 1724770861, 1725107078, 1725116675, 1725194453 }
     },
+    ["/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/lspconfig.lua"] = {
+      count = 19,
+      timestamps = { 1726504823, 1726505065, 1726505349, 1726559497, 1726566724, 1726567144, 1726567353, 1726567558, 1726572413, 1726572489 }
+    },
     ["/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/lualine.lua"] = {
       count = 6,
       timestamps = { 1725100139, 1725100866, 1725101202, 1725105421, 1725116683, 1725194347 }
@@ -71,6 +87,10 @@
     ["/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/nvim-tree.lua"] = {
       count = 3,
       timestamps = { 1724765107, 1725116715, 1725194364 }
+    },
+    ["/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/readme.md"] = {
+      count = 1,
+      timestamps = { 1726572519 }
     },
     ["/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/symbols-outline.lua"] = {
       count = 6,
@@ -96,6 +116,10 @@
       count = 37,
       timestamps = { 1725115924, 1725116784, 1725160717, 1725193604, 1725193968, 1725194396, 1725199390, 1725199638, 1725199657, 1725199754 }
     },
+    ["/LocalRun/wenjian.ma/dotfiles/.local/share/nvim/lazy/cmp-nvim-lsp-document-symbol/lua/cmp_nvim_lsp_document_symbol/init.lua"] = {
+      count = 1,
+      timestamps = { 1726503528 }
+    },
     ["/LocalRun/wenjian.ma/dotfiles/.local/share/nvim/lazy/coc.nvim/doc/coc.txt"] = {
       count = 1,
       timestamps = { 1725195617 }
@@ -103,6 +127,10 @@
     ["/LocalRun/wenjian.ma/dotfiles/.local/share/nvim/lazy/telescope.nvim/doc/telescope.txt"] = {
       count = 2,
       timestamps = { 1724942535, 1724942690 }
+    },
+    ["/LocalRun/wenjian.ma/dotfiles/.vim/plugged/node-v16.18.0-linux-x64/lib/node_modules/pyright/dist/typeshed-fallback/stdlib/builtins.pyi"] = {
+      count = 4,
+      timestamps = { 1726505563, 1726507090, 1726507216, 1726567515 }
     },
     ["/LocalRun/wenjian.ma/dotfiles/.vim/plugged/nvim-linux64_v0.9.5/share/nvim/runtime/doc/api.txt"] = {
       count = 1,
@@ -125,8 +153,8 @@
       timestamps = { 1725120235, 1725153202, 1725153517, 1725153871, 1725154102, 1725155315, 1725173568 }
     },
     ["/LocalRun/wenjian.ma/program_en/mawnja_readme.md"] = {
-      count = 5,
-      timestamps = { 1724638563, 1724690128, 1724947642, 1725106533, 1725173934 }
+      count = 6,
+      timestamps = { 1724638563, 1724690128, 1724947642, 1725106533, 1725173934, 1726402933 }
     },
     ["/LocalRun/wenjian.ma/program_en/ml_dtypes/ml_dtypes/__init__.py"] = {
       count = 1,
@@ -145,12 +173,20 @@
       timestamps = { 0 }
     },
     ["/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/cmp.lua"] = {
+      count = 2,
+      timestamps = { 0, 1726499132 }
+    },
+    ["/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/gitsigns.lua"] = {
       count = 1,
-      timestamps = { 0 }
+      timestamps = { 1726507144 }
     },
     ["/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/keymaps.lua"] = {
       count = 1,
       timestamps = { 0 }
+    },
+    ["/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/lspconfig.lua"] = {
+      count = 3,
+      timestamps = { 1726404231, 1726496513, 1726504279 }
     },
     ["/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/lualine.lua"] = {
       count = 1,
@@ -161,8 +197,8 @@
       timestamps = { 0 }
     },
     ["/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/plugins.lua"] = {
-      count = 1,
-      timestamps = { 0 }
+      count = 4,
+      timestamps = { 0, 1726496695, 1726500611, 1726506834 }
     },
     ["/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/symbolsoutline.lua"] = {
       count = 2,
@@ -200,6 +236,14 @@
       count = 1,
       timestamps = { 0 }
     },
+    ["/LocalRun/wenjian.ma/tvm/compile_commands.json"] = {
+      count = 1,
+      timestamps = { 1726572219 }
+    },
+    ["/LocalRun/wenjian.ma/tvm/compile_flags.txt"] = {
+      count = 1,
+      timestamps = { 1726572198 }
+    },
     ["/LocalRun/wenjian.ma/tvm/conftest.py"] = {
       count = 1,
       timestamps = { 1725108543 }
@@ -220,6 +264,10 @@
       count = 3,
       timestamps = { 1724909017, 1724918942, 1724920500 }
     },
+    ["/LocalRun/wenjian.ma/tvm/include/tvm/runtime/container/adt.h"] = {
+      count = 1,
+      timestamps = { 1726572342 }
+    },
     ["/LocalRun/wenjian.ma/tvm/include/tvm/runtime/container/optional.h"] = {
       count = 1,
       timestamps = { 1725009760 }
@@ -227,6 +275,14 @@
     ["/LocalRun/wenjian.ma/tvm/include/tvm/runtime/data_type.h"] = {
       count = 7,
       timestamps = { 1724653721, 1724753571, 1724754360, 1724764564, 1724915454, 1724918733, 1724920358 }
+    },
+    ["/LocalRun/wenjian.ma/tvm/include/tvm/runtime/logging.h"] = {
+      count = 1,
+      timestamps = { 1726572351 }
+    },
+    ["/LocalRun/wenjian.ma/tvm/include/tvm/runtime/ndarray.h"] = {
+      count = 1,
+      timestamps = { 1726572367 }
     },
     ["/LocalRun/wenjian.ma/tvm/python/tvm/_ffi/libinfo.py"] = {
       count = 1,
@@ -280,9 +336,13 @@
       count = 1,
       timestamps = { 1725108812 }
     },
+    ["/LocalRun/wenjian.ma/tvm/python/tvm/runtime/ndarray.py"] = {
+      count = 1,
+      timestamps = { 1726567536 }
+    },
     ["/LocalRun/wenjian.ma/tvm/python/tvm/runtime/vm.py"] = {
-      count = 6,
-      timestamps = { 0, 1724776865, 1724938817, 1725108104, 1725120020, 1725120369 }
+      count = 10,
+      timestamps = { 0, 1724776865, 1724938817, 1725108104, 1725120020, 1725120369, 1726505553, 1726507083, 1726507211, 1726567507 }
     },
     ["/LocalRun/wenjian.ma/tvm/python/tvm/script/ir_builder/tir/ir.py"] = {
       count = 1,
@@ -305,8 +365,8 @@
       timestamps = { 1725154011 }
     },
     ["/LocalRun/wenjian.ma/tvm/src/runtime/vm/vm.cc"] = {
-      count = 15,
-      timestamps = { 1725113362, 1725113447, 1725113850, 1725114619, 1725115529, 1725119974, 1725120385, 1725120670, 1725153962, 1725160373 }
+      count = 23,
+      timestamps = { 1725153962, 1725160373, 1726500938, 1726507232, 1726566597, 1726567180, 1726567358, 1726567385, 1726572249, 1726572327 }
     },
     ["/LocalRun/wenjian.ma/tvm/src/target/intrin_rule.cc"] = {
       count = 1,
@@ -402,9 +462,9 @@
     }
   },
   version = "v1"
-}«Z  ∞ •À ï5 .5 5  5 ==5 5 ==5 5	 ==
+}©j  › · —5 [5 5  5 ==5 5 ==5 5	 ==
 5 5 ==5 5 ==5 5 ==5 5 ==5 5 ==5 5 ==5 5 ==5  5! =="5# 5$ ==%5& 5' ==(5) 5* ==+5, 5- ==.5/ 50 ==152 53 ==455 56 ==758 59 ==:5; 5< ===5> 5? ==@5A 5B ==C5D 5E ==F5G 5H ==I5J 5K ==L5M 5N ==O5P 5Q ==R5S 5T ==U5V 5W ==X5Y 5Z ==[5\ 5] ==^5_ 5` ==a5b 5c ==d5e 5f ==g5h 5i ==j5k 5l ==m5n 5o ==p5q 5r ==s5t 5u ==v5w 5x ==y5z 5{ ==|5} 5~ ==5Ä 5Å ==Ç5É 5Ñ ==Ö5Ü 5á ==à5â 5ä ==ã5å 5ç ==é5è 5ê ==ë5í 5ì ==î5ï 5ñ ==ó5ò 5ô ==ö5õ 5ú ==ù5û 5ü ==†5° 5¢ ==£5§ 5• ==¶5ß 5® ==©5™ 5´ ==¨5≠ 5Æ ==Ø5∞ 5± ==≤5≥ 5¥ ==µ5∂ 5∑ ==∏5π 5∫ ==ª5º 5Ω ==æ5ø 5¿ ==¡5¬ 5√ ==ƒ5≈ 5∆ ==«5» 5… == 5À 5Ã ==Õ5Œ 5œ ==–5— 5“ ==”5‘ 5’ ==÷5◊ 5ÿ ==Ÿ5⁄ 5€ ==‹5› 5ﬁ ==ﬂ5‡ 5· ==‚5„ 5‰ ==Â5Ê 5Á ==Ë5È 5Í ==Î5Ï 5Ì ==Ó5Ô 5 ==Ò5Ú 5Û ==Ù5ı 5ˆ ==˜5¯ 5˘ ==˙5˚ 5¸ ==˝5˛ 5ˇ =' <55='<55='<55='	<5
-5='<55='<55='<55='<55='<55='<55='<55 ='!<5"5#='$<5%5&=''<5(5)='*<5+5,='-<'/< L  records versionv1/usr/include/stdint.h  äÊ¿∂ 
+5='<55='<55='<55='<55='<55='<55='<55 ='!<5"5#='$<5%5&=''<5(5)='*<5+5,='-<5.5/='0<5152='3<5455='6<5758='9<5:5;='<<5=5>='?<5@5A='B<5C5D='E<5F5G='H<5I5J='K<5L5M='N<5O5P='Q<5R5S='T<5U5V='W<5X5Y='Z<'\< L  records versionv1/usr/include/stdint.h  äÊ¿∂ 
 count&/run/user/1016/coc-nvim-15023.log  Ú–Ã∂ 
 count/home/wenjian.ma/.yarnrc    
 count/home/wenjian.ma/.profile    
@@ -427,14 +487,16 @@ count;/LocalRun/wenjian.ma/tvm/src/tir/transforms/ir_utils.h  µœø∂ 
 count./LocalRun/wenjian.ma/tvm/src/te/tensor.cc    
 countE/LocalRun/wenjian.ma/tvm/src/target/source/literal/cuda_half_t.h  ∂µø∂ 
 count7/LocalRun/wenjian.ma/tvm/src/target/intrin_rule.cc  π–¿∂ 
-count2/LocalRun/wenjian.ma/tvm/src/runtime/vm/vm.cc  í»Ã∂Á»Ã∂˙ÀÃ∂˚—Ã∂âŸÃ∂Ê˚Ã∂ÅˇÃ∂ûÅÕ∂™Öœ∂µ∑œ∂ 
-count5/LocalRun/wenjian.ma/tvm/src/runtime/meta_data.h  €Öœ∂ 
+count2/LocalRun/wenjian.ma/tvm/src/runtime/vm/vm.cc  ™Öœ∂µ∑œ∂ †°∑‡—°∑≈°•∑å¶•∑æß•∑Ÿß•∑ŸÕ•∑ßŒ•∑ 
+count5/LocalRun/wenjian.ma/tvm/src/runtime/meta_data.h  €Öœ∂ 
 count6/LocalRun/wenjian.ma/tvm/src/runtime/file_utils.h  “Öœ∂ 
 count@/LocalRun/wenjian.ma/tvm/src/relax/backend/vm/codegen_vm.cc  ô Œ∂ 
 count9/LocalRun/wenjian.ma/tvm/src/ir/global_var_supply.cc  ¯≠Ã∂îÆÃ∂ 
 countD/LocalRun/wenjian.ma/tvm/python/tvm/script/ir_builder/tir/ir.py  Ê€ƒ∂ 
-count6/LocalRun/wenjian.ma/tvm/python/tvm/runtime/vm.py   °É∏∂¡Ù¡∂àüÃ∂î¸Ã∂Ò˛Ã∂ 
-countC/LocalRun/wenjian.ma/tvm/python/tvm/relay/quantize/quantize.py  Ã§Ã∂ 
+count6/LocalRun/wenjian.ma/tvm/python/tvm/runtime/vm.py   °É∏∂¡Ù¡∂àüÃ∂î¸Ã∂Ò˛Ã∂—ƒ°∑À–°∑À—°∑”®•∑ 
+count
+;/LocalRun/wenjian.ma/tvm/python/tvm/runtime/ndarray.py  ®•∑ 
+countC/LocalRun/wenjian.ma/tvm/python/tvm/relay/quantize/quantize.py  Ã§Ã∂ 
 countD/LocalRun/wenjian.ma/tvm/python/tvm/relay/quantize/_quantize.py    
 count:/LocalRun/wenjian.ma/tvm/python/tvm/relay/op/vm/vm.py   ∆Ø≤∂˚…Œ∂ 
 count:/LocalRun/wenjian.ma/tvm/python/tvm/relax/vm_build.py  ê≈∞∂ 
@@ -447,13 +509,18 @@ countT/LocalRun/wenjian.ma/tvm/python/tvm/relax/frontend/nn/llm/position_embed
 count:/LocalRun/wenjian.ma/tvm/python/tvm/contrib/dlpack.py  ™⁄¿∂ 
 count?/LocalRun/wenjian.ma/tvm/python/tvm/_ffi/runtime_ctypes.py  èö¡∂ 
 count8/LocalRun/wenjian.ma/tvm/python/tvm/_ffi/libinfo.py  ‡„≈∂ 
+count;/LocalRun/wenjian.ma/tvm/include/tvm/runtime/ndarray.h  œŒ•∑ 
+count;/LocalRun/wenjian.ma/tvm/include/tvm/runtime/logging.h  øŒ•∑ 
 count=/LocalRun/wenjian.ma/tvm/include/tvm/runtime/data_type.h  ô¡∞∂£Õ∂∂∏”∂∂î£∑∂˛Ω¿∂Õ◊¿∂¶‰¿∂ 
 countF/LocalRun/wenjian.ma/tvm/include/tvm/runtime/container/optional.h  ‡û∆∂ 
+countA/LocalRun/wenjian.ma/tvm/include/tvm/runtime/container/adt.h  ∂Œ•∑ 
 countA/LocalRun/wenjian.ma/tvm/include/tvm/runtime/c_runtime_api.h  Ÿã¿∂ûŸ¿∂¥Â¿∂ 
 count1/LocalRun/wenjian.ma/tvm/golang/src/value.go    
 count0/LocalRun/wenjian.ma/tvm/golang/src/type.go    
 countQ/LocalRun/wenjian.ma/tvm/docker/install/ubuntu2004_install_python_package.sh  ñÂƒ∂öÏƒ∂ 
 count)/LocalRun/wenjian.ma/tvm/conftest.py  ø¢Ã∂ 
+count//LocalRun/wenjian.ma/tvm/compile_flags.txt  ¶Õ•∑ 
+count3/LocalRun/wenjian.ma/tvm/compile_commands.json  ªÕ•∑ 
 count%/LocalRun/wenjian.ma/tvm/NEWS.md    
 count&/LocalRun/wenjian.ma/tvm/Makefile  ≥¸Ã∂ 
 count;/LocalRun/wenjian.ma/tvm/3rdparty/mlperftiny/README.md  óﬁƒ∂«ﬁƒ∂§‚ƒ∂ 
@@ -463,47 +530,56 @@ count6/LocalRun/wenjian.ma/tvm/3rdparty/cma/settings.mk  ˘‚ƒ∂ 
 countK/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/treesitter.lua    
 countJ/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/telescope.lua    
 countO/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/symbolsoutline.lua  ‚É∏∂íÑ∏∂ 
-countH/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/plugins.lua    
-countI/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/neo-tree.lua    
+countH/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/plugins.lua   ∑ˇ†∑Éû°∑“Œ°∑ 
+countI/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/neo-tree.lua    
 countH/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/lualine.lua    
-countH/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/keymaps.lua    
-countD/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/cmp.lua    
-countK/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/bufferline.lua    
+countJ/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/lspconfig.lua  á≠õ∑Å˛†∑◊∫°∑ 
+countH/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/keymaps.lua    
+countI/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/gitsigns.lua  à—°∑ 
+countD/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/cmp.lua   ºí°∑ 
+countK/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/bufferline.lua    
 countJ/LocalRun/wenjian.ma/program_en/my-nvim-config/lua/user/autopairs.lua    
 count</LocalRun/wenjian.ma/program_en/my-nvim-config/init.lua    
 countD/LocalRun/wenjian.ma/program_en/ml_dtypes/ml_dtypes/__init__.py  ÂÌƒ∂ 
-count5/LocalRun/wenjian.ma/program_en/mawnja_readme.md  „ Ø∂–›≤∂∫π¬∂ÂíÃ∂Æ°–∂ 
-count)/LocalRun/wenjian.ma/dotfiles/qa.txt  Î˝Ã∂≤ˇŒ∂ÌÅœ∂œÑœ∂∂Üœ∂Ûèœ∂¿û–∂ 
+count5/LocalRun/wenjian.ma/program_en/mawnja_readme.md  „ Ø∂–›≤∂∫π¬∂ÂíÃ∂Æ°–∂ı¢õ∑ 
+count)/LocalRun/wenjian.ma/dotfiles/qa.txt  Î˝Ã∂≤ˇŒ∂ÌÅœ∂œÑœ∂∂Üœ∂Ûèœ∂¿û–∂ 
 count(/LocalRun/wenjian.ma/dotfiles/ln.sh    
 countb/LocalRun/wenjian.ma/dotfiles/.vim/plugged/nvim-linux64_v0.9.5/share/nvim/runtime/doc/lua.txt  ‚ä¬∂ 
 countf/LocalRun/wenjian.ma/dotfiles/.vim/plugged/nvim-linux64_v0.9.5/share/nvim/runtime/doc/builtin.txt  Äç¬∂ 
 countb/LocalRun/wenjian.ma/dotfiles/.vim/plugged/nvim-linux64_v0.9.5/share/nvim/runtime/doc/api.txt  ≠í¬∂ 
-countZ/LocalRun/wenjian.ma/dotfiles/.local/share/nvim/lazy/telescope.nvim/doc/telescope.txt  «ë¬∂‚í¬∂ 
+countã/LocalRun/wenjian.ma/dotfiles/.vim/plugged/node-v16.18.0-linux-x64/lib/node_modules/pyright/dist/typeshed-fallback/stdlib/builtins.pyi  €ƒ°∑“–°∑–—°∑€®•∑ 
+countZ/LocalRun/wenjian.ma/dotfiles/.local/share/nvim/lazy/telescope.nvim/doc/telescope.txt  «ë¬∂‚í¬∂ 
 countN/LocalRun/wenjian.ma/dotfiles/.local/share/nvim/lazy/coc.nvim/doc/coc.txt  · —∂ 
+countÄ/LocalRun/wenjian.ma/dotfiles/.local/share/nvim/lazy/cmp-nvim-lsp-document-symbol/lua/cmp_nvim_lsp_document_symbol/init.lua  Ë¥°∑ 
 countJ/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/treesitter.lua  î‹Ã∂‚Ã∂ç∫œ∂Ñª—∂Ω—∂ú¡—∂ûË—∂ñÍ—∂©Í—∂äÎ—∂ 
 count%D/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/todo.lua  ﬂ‚Ã∂ï¡—∂ 
 countE/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/theme.lua  Íÿ∑∂›⁄∑∂˚·∑∂ü∑¬∂∏‰Ã∂˘ô—∂’ö—∂¥æ—∂Íø—∂ø—∂ 
 countH/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/terminal.lua  úï“∂«ï“∂äñ“∂ıñ“∂∫ó“∂ﬁó“∂éò“∂≠ò“∂Õò“∂äô“∂ 
 countI/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/telescope.lua  Ñ¡—∂«¬—∂∂ƒ—∂é≈—∂Ã≈—∂‡÷—∂˙◊—∂¨⁄—∂ä€—∂˙ﬂ—∂ 
 count6O/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/symbols-outline.lua  ìˇ∑∂±ˇ∑∂ÄÅ∏∂ˇÇ∏∂•‰Ã∂È¡—∂ 
-countI/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/nvim-tree.lua  ≥ß∑∂´‚Ã∂¸¿—∂ 
+countE/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/readme.md  Áœ•∑ 
+countI/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/nvim-tree.lua  ≥ß∑∂´‚Ã∂¸¿—∂ 
 countE/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/marks.lua  É‰Ã∂‡¡—∂ 
 countG/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/lualine.lua  Î‡À∂¬ÊÀ∂íÈÀ∂çäÃ∂ã‚Ã∂Î¿—∂ 
-countC/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/ibl.lua  êØ≤∂´‘≤∂À‘≤∂ß’≤∂Â÷≤∂á◊≤∂≠‘∑∂ÜóÃ∂É‚Ã∂’¡—∂ 
+countI/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/lspconfig.lua  ˜æ°∑È¿°∑Ö√°∑âÍ§∑ƒ¢•∑Ë••∑πß•∑Ü©•∑˝Œ•∑…œ•∑ 
+countC/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/ibl.lua  êØ≤∂´‘≤∂À‘≤∂ß’≤∂Â÷≤∂á◊≤∂≠‘∑∂ÜóÃ∂É‚Ã∂’¡—∂ 
 countB/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/gv.lua	  Ñ‚∂∂ˇË∂∂À„∑∂˘∂¬∂‘æ¬∂∑ÂÀ∂ „Ã∂Â¿—∂ 
 countE/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/flash.lua  ˚·Ã∂∆¡—∂ 
 countJ/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/cursorword.lua  ®∏—∂Å——∂â”—∂ 
 countG/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/comment.lua  æ€«∂ΩÂÀ∂ú„Ã∂‰±œ∂§∑œ∂ã∏œ∂∑¡—∂ 
 countI/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/colorizer.lua  „·Ã∂ 
 countC/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/coc.lua  Å¨—∂¶Æ—∂¯∞—∂ı≤—∂Œµ—∂Ïµ—∂≠¡—∂€≈—∂Œœ—∂â◊—∂ 
-countJ/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/bufferline.lua  «¶∑∂Êß∑∂“”∑∂ú‘∑∂◊˛¡∂¬ˇ¡∂œˇ¡∂›ñÃ∂û·Ã∂≤¬—∂ 
+countC/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/cmp.lua  ßû°∑èü°∑˘ü°∑˙°°∑çº°∑’¬°∑®œ°∑®–°∑πÒ§∑ƒ¨•∑ 
+countJ/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/plugins/bufferline.lua  «¶∑∂Êß∑∂“”∑∂ú‘∑∂◊˛¡∂¬ˇ¡∂œˇ¡∂›ñÃ∂û·Ã∂≤¬—∂ 
 count?/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/options.lua  õ≈Ã∂ﬂŸÃ∂“˚Ã∂“ÎŒ∂ÊÎŒ∂ÏÙŒ∂…¥—∂¢÷—∂Ω÷—∂˝Ÿ—∂ 
-count!;/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/lzy.lua  —ŸÃ∂È›Ã∂©µ—∂Ñ∂—∂•∂—∂˚∂—∂ÜÊ—∂äÊ—∂ÜÈ—∂öÎ—∂ 
-countB/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/keybinding.lua  îæÃ∂·øÃ∂£¿Ã∂«√Ã∂…≈Ã∂√ŸÃ∂»˚Ã∂∞´—∂ﬂœ—∂ Û—∂ 
-count98/LocalRun/wenjian.ma/dotfiles/.config/nvim/init.lua	   ô”∑∂˙‡∑∂Å–¬∂Ü—¬∂˘ïÃ∂ÉñÃ∂Ä≠Ã∂ 
+count!;/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/lzy.lua  ©µ—∂Ñ∂—∂•∂—∂˚∂—∂ÜÊ—∂äÊ—∂ÜÈ—∂öÎ—∂óõ°∑Òõ°∑ 
+countB/LocalRun/wenjian.ma/dotfiles/.config/nvim/lua/keybinding.lua  ·øÃ∂£¿Ã∂«√Ã∂…≈Ã∂√ŸÃ∂»˚Ã∂∞´—∂ﬂœ—∂ Û—∂”ù°∑ 
+count:8/LocalRun/wenjian.ma/dotfiles/.config/nvim/init.lua	   ô”∑∂˙‡∑∂Å–¬∂Ü—¬∂˘ïÃ∂ÉñÃ∂Ä≠Ã∂ 
 countA/LocalRun/wenjian.ma/dotfiles/.config/nvim/coc-settings.json  º’Ã∂Î“Œ∂“÷Œ∂¶∫œ∂⁄¨—∂Ÿ∞—∂—≤—∂Ú≈—∂Ÿ’—∂ˆ’—∂ 
-countF/LocalRun/wenjian.ma/dotfiles/.config/coc/extensions/package.json  —˝Ã∂ 
-count*/LocalRun/wenjian.ma/dotfiles/.bashrc  timestamps  î÷∑∂ËÊŒ∂˛ô–∂ 
-count       	 	 
+count5/LocalRun/wenjian.ma/dotfiles/.config/dconf/user  É‘•∑ 
+countO/LocalRun/wenjian.ma/dotfiles/.config/configstore/update-notifier-npm.json  Ø‘•∑ 
+countF/LocalRun/wenjian.ma/dotfiles/.config/coc/extensions/package.json  —˝Ã∂ 
+count*/LocalRun/wenjian.ma/dotfiles/.bashrc  timestamps  î÷∑∂ËÊŒ∂˛ô–∂ÿã•∑∑ñ•∑Ñó•∑—†•∑ 
+count       	 	 
                       ! ! " # % % & ' ) ) * + - - . / 1 1 2 3 5 5 6 7 9 9 : ; = = > ? A A B C E E F G I I J K M M N O Q Q R S U U V W Y Y Z [ ] ] ^ _ a a b c e e f g i i j k m m n o q q r s u u v w y y z { } } ~  Å Å Ç É Ö Ö Ü á â â ä ã ç ç é è ë ë í ì ï ï ñ ó ô ô ö õ ù ù û ü ° ° ¢ £ • • ¶ ß © © ™ ´ ≠ ≠ Æ Ø ± ± ≤ ≥ µ µ ∂ ∑ π π ∫ ª Ω Ω æ ø ¡ ¡ ¬ √ ≈ ≈ ∆ « … …   À Õ Õ Œ œ — — “ ” ’ ’ ÷ ◊ Ÿ Ÿ ⁄ € › › ﬁ ﬂ · · ‚ „ Â Â Ê Á È È Í Î Ì Ì Ó Ô Ò Ò Ú Û ı ı ˆ ˜ ˘ ˘ ˙ ˚ ˝ ˝ ˛ ˇ 		
-!!"#%%&'))*+--./1123556799:;==>?AABCEEFGIIJKMMNOQQRSUUVVWYYZZ[]]^^_aabbceeffgiijjkmmnnoqqrrsuuvvwyyzz{}}~~ÅÅÇÇÉÖÖÜÜáââääãççééèëëííììï  
+!!"#%%&'))*+--./1123556799:;==>?AABCEEFGIIJKMMNOQQRSUUVVWYYZZ[]]^^_aabbceeffgiijjkmmnnoqqrrsuuvvwyyzz{}}~~ÅÅÇÇÉÖÖÜÜáââääãççééèëëííìïïññóôôööõùùûûü°°¢¢£••¶¶ß©©™™´≠≠ÆÆØ±±≤≤≥µµ∂∂∑ππ∫∫ªΩΩææø¡¡¬¬√≈≈∆∆«……  ÀÕÕŒŒœœ—  

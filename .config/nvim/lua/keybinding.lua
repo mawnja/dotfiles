@@ -72,39 +72,39 @@ keymap.set("n", "<C-f>", ":Telescope frecency workspace=CWD<CR>", opt)
 --##coc-nvim
 -- Use `[g` and `]g` to navigate diagnostics
 -- Use `:CocDiagnostics` to get all diagnostics of current buffer in location list
-keymap.set("n", "[g", "<Plug>(coc-diagnostic-prev)", opt)
-keymap.set("n", "]g", "<Plug>(coc-diagnostic-next)", opt)
+--#keymap.set("n", "[g", "<Plug>(coc-diagnostic-prev)", opt)
+--#keymap.set("n", "]g", "<Plug>(coc-diagnostic-next)", opt)
 
 -- GoTo code navigation
-keymap.set("n", "gd", "<Plug>(coc-definition)", opt)
-keymap.set("n", "gy", "<Plug>(coc-type-definition)", opt)
-keymap.set("n", "gi", "<Plug>(coc-implementation)", opt)
+--#keymap.set("n", "gd", "<Plug>(coc-definition)", opt)
+--#keymap.set("n", "gy", "<Plug>(coc-type-definition)", opt)
+--#keymap.set("n", "gi", "<Plug>(coc-implementation)", opt)
 -- Use K to show documentation in preview window
-function _G.show_docs()
-    local cw = vim.fn.expand('<cword>')
-    if vim.fn.index({'vim', 'help'}, vim.bo.filetype) >= 0 then
-        vim.api.nvim_command('h ' .. cw)
-    elseif vim.api.nvim_eval('coc#rpc#ready()') then
-        vim.fn.CocActionAsync('doHover')
-    else
-        vim.api.nvim_command('!' .. vim.o.keywordprg .. ' ' .. cw)
-    end
-end
-keymap.set("n", "K", '<CMD>lua _G.show_docs()<CR>', {silent = true})
+--#function _G.show_docs()
+--#    local cw = vim.fn.expand('<cword>')
+--#    if vim.fn.index({'vim', 'help'}, vim.bo.filetype) >= 0 then
+--#        vim.api.nvim_command('h ' .. cw)
+--#    elseif vim.api.nvim_eval('coc#rpc#ready()') then
+--#        vim.fn.CocActionAsync('doHover')
+--#    else
+--#        vim.api.nvim_command('!' .. vim.o.keywordprg .. ' ' .. cw)
+--#    end
+--#end
+--#keymap.set("n", "K", '<CMD>lua _G.show_docs()<CR>', {silent = true})
 
 -- Symbol renaming
-keymap.set("n", "<leader>rn", "<Plug>(coc-rename)", {silent = true})
+--#keymap.set("n", "<leader>rn", "<Plug>(coc-rename)", {silent = true})
 
 -- Formatting selected code
-keymap.set("x", "<leader>f", "<Plug>(coc-format-selected)", {silent = true})
-keymap.set("n", "<leader>f", "<Plug>(coc-format-selected)", {silent = true})
+--#keymap.set("x", "<leader>f", "<Plug>(coc-format-selected)", {silent = true})
+--#keymap.set("n", "<leader>f", "<Plug>(coc-format-selected)", {silent = true})
 
 -- 使用 <TAB> 键进行代码补全
-keymap.set("i", "<TAB>", 'pumvisible() ? "<C-n>" : "<TAB>"', { noremap = true, expr = true })
-keymap.set("i", "<S-TAB>", 'pumvisible() ? "<C-p>" : "<C-h>"', { noremap = true, expr = true })
+--#keymap.set("i", "<TAB>", 'pumvisible() ? "<C-n>" : "<TAB>"', { noremap = true, expr = true })
+--#keymap.set("i", "<S-TAB>", 'pumvisible() ? "<C-p>" : "<C-h>"', { noremap = true, expr = true })
 
 -- 使用 <CR> 键确认补全
-keymap.set("i", "<CR>", 'pumvisible() ? coc#_select_confirm() : "<C-g>u<CR><c-r>=coc#on_enter()<CR>"', { noremap = true, expr = true })
+--#keymap.set("i", "<CR>", 'pumvisible() ? coc#_select_confirm() : "<C-g>u<CR><c-r>=coc#on_enter()<CR>"', { noremap = true, expr = true })
 
 --coc-git
 --keymap.set('n', '<leader>gb', ':CocCommand git.chunkInfo<CR>', opt)
