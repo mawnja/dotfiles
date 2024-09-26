@@ -13,9 +13,6 @@ ln -s ${dotdir}/.config .config
 rm .local
 ln -s ${dotdir}/.local .local
 
-rm .vim
-ln -s ${dotdir}/.vim .vim
-
 rm .zshrc 
 ln -s ${dotdir}/zsh/.zshrc .zshrc
 
