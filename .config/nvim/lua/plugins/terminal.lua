@@ -9,9 +9,9 @@ local floaterm = {
         vim.g.floaterm_title = 'Terminal $1/$2'
 
         -- 设置快捷键
-        vim.api.nvim_set_keymap('n', '<F1>', ':FloatermNew<CR>', { noremap = true, silent = true })
-        vim.api.nvim_set_keymap('n', '<F2>', ':FloatermPrev<CR>', { noremap = true, silent = true })
-        vim.api.nvim_set_keymap('n', '<F3>', ':FloatermNext<CR>', { noremap = true, silent = true })
+        --vim.api.nvim_set_keymap('n', '<F1>', ':FloatermNew<CR>', { noremap = true, silent = true })
+        --vim.api.nvim_set_keymap('n', '<F2>', ':FloatermPrev<CR>', { noremap = true, silent = true })
+        --vim.api.nvim_set_keymap('n', '<F3>', ':FloatermNext<CR>', { noremap = true, silent = true })
         vim.api.nvim_set_keymap('n', '<F4>', ':FloatermToggle<CR>', { noremap = true, silent = true })
         vim.api.nvim_set_keymap('n', '<F5>', ':FloatermKill<CR>', { noremap = true, silent = true })
     end

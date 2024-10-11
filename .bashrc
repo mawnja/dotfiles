@@ -16,6 +16,7 @@ export PATH=~/.local/share/ripgrep/target/release:$PATH
 export PATH=~/.local/share/fd/target/release:$PATH
 export PATH=~/.local/share/yarn/bin:$PATH
 export PATH=~/.local/share/clangd_11.0.0/bin:$PATH
+export PATH=~/.local/share/cargo-0.82.0/target/release:$PATH
 export PATH=${localrun}/program_en/cmake-3.25.0-linux-x86_64/bin:$PATH
 export PATH=${localrun}/program_en/vscode/VSCode-linux-x64/bin:$PATH
 export PATH=${localrun}/dotfiles/zsh/myzsh/usr/bin:$PATH
@@ -24,3 +25,5 @@ export PATH=${localrun}/dotfiles/zsh/myzsh/usr/bin:$PATH
 #export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 export PATH=${localrun}/program_en/rbenv/bin:$PATH
 eval "$(rbenv init -)"
+
+export NVIM_PROFILE=1

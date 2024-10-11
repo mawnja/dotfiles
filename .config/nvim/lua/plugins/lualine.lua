@@ -17,17 +17,7 @@ return {
             sections = {
                 lualine_a = {'mode'},
                 lualine_b = {'branch', 'diff', 'diagnostics'},
-                --lualine_c = {'filename'},
-                lualine_c = {
-                    {
-                        function()
-                            return vim.fn.expand('%:p')
-                        end,
-                        cond = function()
-                            return vim.api.nvim_buf_get_option(0, 'buftype') ~= 'terminal'
-                        end
-                    }
-                },
+                lualine_c = { {'filename', path = 1} },  -- display the file path, 1, relative path, 2, absolute path
                 lualine_x = {'encoding', 'fileformat', 'filetype'},
                 lualine_y = {'progress'},
                 lualine_z = {'location'}
@@ -35,17 +25,7 @@ return {
             inactive_sections = {
                 lualine_a = {},
                 lualine_b = {},
-                --lualine_c = {'filename'},
-                lualine_c = {
-                     {
-                        function()
-                            return vim.fn.expand('%:p')
-                        end,
-                        cond = function()
-                            return vim.api.nvim_buf_get_option(0, 'buftype') ~= 'terminal'
-                        end
-                    }
-                },
+                lualine_c = { {'filename', path = 1} },  -- display the file path, 1, relative path, 2, absolute path
                 lualine_x = {'location'},
                 lualine_y = {},
                 lualine_z = {}
