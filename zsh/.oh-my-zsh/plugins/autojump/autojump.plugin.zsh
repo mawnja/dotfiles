@@ -1,5 +1,7 @@
 declare -a autojump_paths
 autojump_paths=(
+  $HOME/dotfiles/zsh/myzsh/.autojump/etc/profile.d/autojump.sh
+  $HOME/dotfiles/zsh/myzsh/.autojump/share/autojump/autojump.zsh
   $HOME/.autojump/etc/profile.d/autojump.zsh             # manual installation
   $HOME/.autojump/share/autojump/autojump.zsh            # manual installation
   $HOME/.nix-profile/etc/profile.d/autojump.sh           # NixOS installation

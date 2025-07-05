@@ -1,10 +1,11 @@
 return { 
-    "nvim-telescope/telescope.nvim", 
+    "nvim-telescope/telescope.nvim",
+    enable = true, --使用本地已有版本
     version = "0.1.6", 
     dependencies = {
-        "nvim-lua/plenary.nvim",
-        "nvim-telescope/telescope-frecency.nvim",
-        "nvim-telescope/telescope-file-browser.nvim",
+        "nvim-lua/plenary.nvim", commit = "f4faa5a",
+        "nvim-telescope/telescope-frecency.nvim", commit = "f67baca",
+        "nvim-telescope/telescope-file-browser.nvim", commit = "dd9de68",
         "nvim-telescope/telescope-live-grep-args.nvim", version = "^1.0.0",      
     },
     opts = {},
@@ -116,7 +117,7 @@ return {
                     },
                     layout_strategy = "horizontal",
                     dynamic_preview_title = true,
-                    layout_config = { 
+                   layout_config = { 
                         width = {padding = 0},
                         height = {padding = 0},
                         preview_width = 0.5,

@@ -8,4 +8,7 @@ cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
 make -j 4
 cd .. && ln -s build/compile_command.json compile_command.json
 
-2. cmp-nvim-lsp 与 nvim-cmp 配合使用 
+2. cmp-nvim-lsp 与 nvim-cmp 配合使用
+
+
+3. 为了避免版本兼容，最好能保持插件为固定的commit

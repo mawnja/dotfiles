@@ -1,16 +1,18 @@
 return {
     'hrsh7th/nvim-cmp',
+    enable = true,  --使用本地已有版本
+    commit = "ae644fe",
     dependencies = {
-      'hrsh7th/cmp-nvim-lsp',
-      'hrsh7th/cmp-buffer',
-      'hrsh7th/cmp-path',
-      'hrsh7th/cmp-cmdline',
-      'saadparwaiz1/cmp_luasnip',
-      'hrsh7th/cmp-nvim-lsp-signature-help',
-      'hrsh7th/cmp-nvim-lsp-document-symbol',
+      'hrsh7th/cmp-nvim-lsp', commit = '39e2eda',
+      'hrsh7th/cmp-buffer', commit = '3022dbc',
+      'hrsh7th/cmp-path', commit = '91ff86c',
+      'hrsh7th/cmp-cmdline', commit = 'd250c63',
+      'saadparwaiz1/cmp_luasnip', commit = '05a9ab2',
+      'hrsh7th/cmp-nvim-lsp-signature-help', commit = '031e6ba',
+      'hrsh7th/cmp-nvim-lsp-document-symbol', commit = 'f94f7ba',
       -- some snippet
-      'L3MON4D3/LuaSnip',
-      'rafamadriz/friendly-snippets'
+      'L3MON4D3/LuaSnip', commit = 'e808bee',
+      'rafamadriz/friendly-snippets', commit = '00ebcaa',
     },
     ops = {},
     config = function()

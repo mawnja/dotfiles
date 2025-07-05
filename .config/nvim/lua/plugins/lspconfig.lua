@@ -1,9 +1,11 @@
 return {    
     'neovim/nvim-lspconfig',
+    enable = true, --使用本地已有版本
+    commit = 'eb36e01',
     dependencies = {
-        'williamboman/nvim-lsp-installer',
-        'hrsh7th/cmp-nvim-lsp',
-        "p00f/clangd_extensions.nvim"
+        'williamboman/nvim-lsp-installer', commit = '17e0bfa',
+        'hrsh7th/cmp-nvim-lsp', commit = '39e2eda',
+        "p00f/clangd_extensions.nvim", commit = '385a44f',
     },
     opts = {},
     config = function()
