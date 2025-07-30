@@ -1,17 +1,17 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=~/dotfiles/zsh/myzsh/.autojump/bin:$PATH
-export PATH=~/dotfiles/zsh/myzsh/fzf/bin:$PATH
-export PATH=~/dotfiles/zsh/myzsh/usr/bin:$PATH
+export PATH=~/.dotfiles/zsh/myzsh/.autojump/bin:$PATH
+export PATH=~/.dotfiles/zsh/myzsh/fzf/bin:$PATH
+export PATH=~/.dotfiles/zsh/myzsh/usr/bin:$PATH
 
-export LD_LIBRARY_PATH=~/dotfiles/zsh/myzsh/usr/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=~/.dotfiles/zsh/myzsh/usr/lib:$LD_LIBRARY_PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=~/.oh-my-zsh
+export ZSH=~/.dotfiles/zsh/.oh-my-zsh
 
-export MODULE_PATH=~/dotfiles/zsh/myzsh/usr/lib/zsh/5.9
+export MODULE_PATH=~/.dotfiles/zsh/myzsh/usr/lib/zsh/5.9
 
-fpath=(~/dotfiles/zsh/myzsh/usr/share/zsh/site-functions $fpath)
-fpath=(~/dotfiles/zsh/myzsh/usr/share/zsh/5.9/functions $fpath)
+fpath=(~/.dotfiles/zsh/myzsh/usr/share/zsh/site-functions $fpath)
+fpath=(~/.dotfiles/zsh/myzsh/usr/share/zsh/5.9/functions $fpath)
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME

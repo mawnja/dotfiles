@@ -248,12 +248,12 @@ function ccgrep()
 function pygrep()
 {
 	#find . -name "*.py" | xargs grep -rin --color "$@"
-	grep -rin --color "$@" --include "*.py"
+	grep -rinsh --color "$@" --include "*.py"
 }
 
 function xgrep()
 {
-	grep -rin --color $1 --include $2
+	grep -rinsh --color $1 --include $2
 }
 
 function xfind()
