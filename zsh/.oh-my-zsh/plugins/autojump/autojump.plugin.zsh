@@ -1,10 +1,10 @@
 declare -a autojump_paths
 autojump_paths=(
-  $HOME/dotfiles/zsh/myzsh/.autojump/etc/profile.d/autojump.sh
-  $HOME/dotfiles/zsh/myzsh/.autojump/share/autojump/autojump.zsh
-  $HOME/.autojump/etc/profile.d/autojump.zsh             # manual installation
-  $HOME/.autojump/share/autojump/autojump.zsh            # manual installation
-  $HOME/.nix-profile/etc/profile.d/autojump.sh           # NixOS installation
+  ${myzsh}/.autojump/etc/profile.d/autojump.sh
+  ${myzsh}/.autojump/share/autojump/autojump.zsh
+  ${myzsh}/.autojump/etc/profile.d/autojump.zsh             # manual installation
+  ${myzsh}/.autojump/share/autojump/autojump.zsh            # manual installation
+  ${myzsh}/.nix-profile/etc/profile.d/autojump.sh           # NixOS installation
   /run/current-system/sw/share/autojump/autojump.zsh     # NixOS installation
   /usr/share/autojump/autojump.zsh                       # Debian and Ubuntu package
   /etc/profile.d/autojump.zsh                            # manual installation

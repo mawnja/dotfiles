@@ -8,11 +8,10 @@ cd dotfiles
 ln -s /your/.local .local
 
 cd ~
-ln -s ${localrun}/dotfiles/.local .local
-ln -s ${localRun}/dotfiles/.config .config
-ln -s ${localRun}/dotfiles/.bashrc .bashrc
-ln -s ${localRun}/dotfiles/zsh/.zshrc .zshrc
-ln -s ${localRun}/dotfiles/zsh/.oh-my-zsh .oh-my-zsh
+ln -s ~/local/dotfiles/.local .local
+ln -s ~/local/dotfiles/.config .config
+ln -s ~/local/dotfiles/.bashrc .bashrc
+ln -s ~/local/dotfiles/zsh/.zshrc .zshrc
 
 cd ${localrun}/download
 wget https://www.python.org/ftp/python/3.8.10/Python-3.8.10.tgz

@@ -1,26 +1,25 @@
 #!/bin/bash
 
+cd /tmp
+
+ln -s /LocalRun/usr local
+
 cd ~
 
-dotdir=/LocalRun/wenjian.ma/dotfiles
-
-rm .dotfiles
-ln -s ${dotdir} .dotfiles
+rm local
+ln -s /tmp/local local
 
 rm .bashrc
-ln -s ~/.dotfiles/.bashrc .bashrc
+ln -s ~/local/dotfiles/.bashrc .bashrc
 
 rm .config
-ln -s ~/.dotfiles/.config .config
+ln -s ~/local/dotfiles/.config .config
 
 rm .local
-ln -s ~/.dotfiles/.local .local
+ln -s ~/local/dotfiles/.local .local
 
 rm .zshrc 
-ln -s ~/.dotfiles/zsh/.zshrc .zshrc
-
-rm .oh-my-zsh
-ln -s ~/.dotfiles/zsh/.oh-my-zsh .oh-my-zsh
+ln -s ~/local/dotfiles/zsh/.zshrc .zshrc
 
 source .bashrc
 source .zshrc
